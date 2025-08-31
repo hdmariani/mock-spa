@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import { Routes, Route, useLocation, BrowserRouter } from "react-router";
+=======
+import { Routes, Route } from "react-router-dom";
+>>>>>>> d9d748e (initial layout)
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+<<<<<<< HEAD
 import { useEffect } from "react";
 
 export default function App() {
@@ -18,6 +23,10 @@ useEffect(()=>{
 })
 
 
+=======
+
+export default function App() {
+>>>>>>> d9d748e (initial layout)
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 text-gray-900 font-sans">
       <Navbar />
