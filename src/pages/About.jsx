@@ -5,7 +5,7 @@ export default function About() {
     <div className="space-y-6">
       <h2 className="text-3xl font-bold">About This Demo</h2>
       <p>
-        This mock site simulates user interactions for analytics and tag manager tracking.
+        This mock site simulates user interactions for analytics and tag manager tracking tests.
       </p>
       <CTAButton label="Read Documentation" />
     </div>
